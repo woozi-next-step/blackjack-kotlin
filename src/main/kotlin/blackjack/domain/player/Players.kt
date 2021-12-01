@@ -11,7 +11,6 @@ value class Players private constructor(val players: List<Player>) {
             splitStrategy.split(name)
                 .map { GamePlayer(Name(it)) }
                 .let { from(it) }
-
         fun from(players: List<Player>): Players = Players(players.toList())
     }
 }
