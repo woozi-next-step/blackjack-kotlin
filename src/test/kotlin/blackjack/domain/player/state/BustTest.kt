@@ -14,6 +14,7 @@ import org.assertj.core.api.Assertions.assertThat
 import org.junit.jupiter.api.BeforeEach
 import org.junit.jupiter.api.DisplayName
 import org.junit.jupiter.api.Test
+
 import org.junit.jupiter.api.assertThrows
 
 @DisplayName("Bust 상태(Bust)")
